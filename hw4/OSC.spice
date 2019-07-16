@@ -1,0 +1,164 @@
+* SPICE3 file created from OSC.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 OSC INV_37/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=2340 ps=1326
+M1001 OSC INV_37/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=780 ps=702
+M1002 INV_37/Z INV_36/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1003 INV_37/Z INV_36/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1004 INV_36/Z INV_35/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1005 INV_36/Z INV_35/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1006 INV_35/Z INV_34/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1007 INV_35/Z INV_34/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1008 INV_34/Z INV_33/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1009 INV_34/Z INV_33/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1010 INV_33/Z INV_32/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1011 INV_33/Z INV_32/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1012 INV_32/Z INV_31/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1013 INV_32/Z INV_31/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1014 INV_31/Z INV_30/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1015 INV_31/Z INV_30/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1016 INV_30/Z INV_29/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1017 INV_30/Z INV_29/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1018 INV_29/Z INV_28/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1019 INV_29/Z INV_28/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1020 INV_28/Z INV_27/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1021 INV_28/Z INV_27/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1022 INV_27/Z INV_26/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1023 INV_27/Z INV_26/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1024 INV_26/Z INV_25/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1025 INV_26/Z INV_25/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1026 INV_25/Z INV_24/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1027 INV_25/Z INV_24/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1028 INV_24/Z INV_23/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1029 INV_24/Z INV_23/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1030 INV_23/Z INV_22/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1031 INV_23/Z INV_22/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1032 INV_22/Z INV_21/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1033 INV_22/Z INV_21/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1034 INV_21/Z INV_20/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1035 INV_21/Z INV_20/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1036 INV_20/Z INV_19/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1037 INV_20/Z INV_19/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1038 INV_19/Z INV_18/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1039 INV_19/Z INV_18/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1040 INV_18/Z INV_17/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1041 INV_18/Z INV_17/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1042 INV_17/Z INV_16/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1043 INV_17/Z INV_16/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1044 INV_16/Z INV_15/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1045 INV_16/Z INV_15/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1046 INV_15/Z INV_14/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1047 INV_15/Z INV_14/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1048 INV_14/Z INV_13/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1049 INV_14/Z INV_13/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1050 INV_13/Z INV_12/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1051 INV_13/Z INV_12/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1052 INV_12/Z INV_11/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1053 INV_12/Z INV_11/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1054 INV_11/Z INV_10/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1055 INV_11/Z INV_10/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1056 INV_10/Z INV_9/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1057 INV_10/Z INV_9/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1058 INV_9/Z INV_8/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1059 INV_9/Z INV_8/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1060 INV_8/Z INV_7/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1061 INV_8/Z INV_7/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1062 INV_7/Z INV_6/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1063 INV_7/Z INV_6/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1064 INV_6/Z INV_5/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1065 INV_6/Z INV_5/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1066 INV_5/Z INV_4/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1067 INV_5/Z INV_4/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1068 INV_4/Z INV_3/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1069 INV_4/Z INV_3/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1070 INV_3/Z INV_2/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1071 INV_3/Z INV_2/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1072 INV_2/Z INV_1/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1073 INV_2/Z INV_1/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1074 INV_1/Z INV_0/Z vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1075 INV_1/Z INV_0/Z gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1076 INV_0/Z OSC vdd vdd pfet w=12 l=2
++  ad=60 pd=34 as=0 ps=0
+M1077 INV_0/Z OSC gnd Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+C0 vdd OSC 8.14fF
+C1 gnd Gnd 108.96fF
+C2 OSC Gnd 3.57fF
+C3 vdd Gnd 130.37fF

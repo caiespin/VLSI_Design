@@ -1,0 +1,21 @@
+CMPE222 Homework 2
+Carlos Isaac Espinosa Ramirez
+
+FA: Dimensions 194 x 77 lambda equal to 58.20 x 23.10 microns, total area 1344.42um^2       
+
+ADDER: Dimensions 1594 x 77 lambda equal to 478.20 x 23.10 microns, total area 11046.42um^2
+
+The circuit logic is as follows:
+
+A | B |Cin| S |Cout|
+0 | 0 | 0 | 0 | 0 |
+0 | 0 | 1 | 1 | 0 |
+0 | 1 | 0 | 1 | 0 |
+0 | 1 | 1 | 0 | 1 |
+1 | 0 | 0 | 1 | 0 |
+1 | 0 | 1 | 0 | 1 |
+1 | 1 | 0 | 0 | 1 |
+1 | 1 | 1 | 1 | 1 |  
+
+COUT = (A & B) + (B & CIN) + (A & CIN)
+SUM = (A & B & CIN) + (!COUT & (A + B + cin))

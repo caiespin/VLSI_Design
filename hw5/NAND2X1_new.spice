@@ -1,0 +1,16 @@
+* SPICE3 file created from NAND2X1_new.ext - technology: scmos
+
+.subckt NAND2X1_new A B Y vdd gnd
+M1000 Y gnd vdd vdd pfet w=2.1u l=0.6u
++  ad=3.15p pd=7.2u as=3.15p ps=7.2u
+M1001 a_9_6# A gnd Gnd nfet w=8.1u l=0.6u
++  ad=7.29p pd=18u as=12.15p ps=19.2u
+M1002 Y B a_9_6# Gnd nfet w=8.1u l=0.6u
++  ad=12.15p pd=19.2u as=0p ps=0u
+C0 vdd gnd 2.89fF
+C1 gnd Gnd 5.19fF
+C2 vdd Gnd 7.00fF
+.ends
+
+X100 A B Z VDD GND NAND2X1_new
+.end

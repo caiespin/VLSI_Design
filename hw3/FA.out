@@ -1,0 +1,102 @@
+
+Subcircuit summary:
+Circuit 1: FA.spc                          |Circuit 2: FA.spice                        
+-------------------------------------------|-------------------------------------------
+nfet (14)                                  |nfet (14)                                  
+pfet (14)                                  |pfet (14)                                  
+Number of devices: 28                      |Number of devices: 28                      
+Number of nets: 19                         |Number of nets: 19                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Property errors were found.
+Netlists match uniquely.
+There were property errors.
+pfet1 vs. pfet1000:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 12   (delta=200%, cutoff=1%)
+pfet5 vs. pfet1001:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 12   (delta=200%, cutoff=1%)
+pfet7 vs. pfet1002:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 12   (delta=200%, cutoff=1%)
+pfet6 vs. pfet1003:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 12   (delta=200%, cutoff=1%)
+pfet4 vs. pfet1005:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 12   (delta=200%, cutoff=1%)
+pfet3 vs. pfet1004:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 12   (delta=200%, cutoff=1%)
+pfet14 vs. pfet1007:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 12   (delta=200%, cutoff=1%)
+pfet15 vs. pfet1006:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 12   (delta=200%, cutoff=1%)
+pfet13 vs. pfet1008:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 12   (delta=200%, cutoff=1%)
+pfet17 vs. pfet1009:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 12   (delta=200%, cutoff=1%)
+pfet18 vs. pfet1010:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 12   (delta=200%, cutoff=1%)
+pfet19 vs. pfet1011:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 12   (delta=200%, cutoff=1%)
+pfet16 vs. pfet1012:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 12   (delta=200%, cutoff=1%)
+pfet27 vs. pfet1013:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 12   (delta=200%, cutoff=1%)
+nfet11 vs. nfet1017:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 4   (delta=200%, cutoff=1%)
+nfet10 vs. nfet1016:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 4   (delta=200%, cutoff=1%)
+nfet8 vs. nfet1018:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 4   (delta=200%, cutoff=1%)
+nfet9 vs. nfet1019:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 4   (delta=200%, cutoff=1%)
+nfet12 vs. nfet1020:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 4   (delta=200%, cutoff=1%)
+nfet2 vs. nfet1014:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 4   (delta=200%, cutoff=1%)
+nfet24 vs. nfet1021:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 4   (delta=200%, cutoff=1%)
+nfet25 vs. nfet1022:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 4   (delta=200%, cutoff=1%)
+nfet26 vs. nfet1023:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 4   (delta=200%, cutoff=1%)
+nfet28 vs. nfet1015:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 4   (delta=200%, cutoff=1%)
+nfet22 vs. nfet1025:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 4   (delta=200%, cutoff=1%)
+nfet21 vs. nfet1024:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 4   (delta=200%, cutoff=1%)
+nfet23 vs. nfet1026:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 4   (delta=200%, cutoff=1%)
+nfet20 vs. nfet1027:
+ L circuit1: 1.8e-07   circuit2: 2   (delta=200%, cutoff=1%)
+ W circuit1: 1e-06   circuit2: 4   (delta=200%, cutoff=1%)
+Cells have no pins;  pin matching not needed.
+Device classes FA.spc and FA.spice are equivalent.
+Circuits match uniquely.
+Property errors were found.
+The following cells had property errors: FA.spc

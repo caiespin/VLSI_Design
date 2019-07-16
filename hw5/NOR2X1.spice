@@ -1,0 +1,17 @@
+* SPICE3 file created from NOR2X1.ext - technology: scmos
+
+.subckt NOR2X1 A B Y vdd gnd
+M1000 a_9_54# A VDD VDD pfet w=12u l=0.6u
++  ad=10.8p pd=25.8u as=18p ps=27u
+M1001 Y B a_9_54# VDD pfet w=12u l=0.6u
++  ad=18p pd=27u as=0p ps=0u
+M1002 Y A GND Gnd nfet w=3u l=0.6u
++  ad=5.4p pd=9.6u as=9p ps=18u
+M1003 GND B Y Gnd nfet w=3u l=0.6u
++  ad=0p pd=0u as=0p ps=0u
+C0 GND Gnd 2.67fF
+C1 VDD Gnd 8.00fF
+.ends
+
+X101 A B Z VDD GND NOR2X1
+.end

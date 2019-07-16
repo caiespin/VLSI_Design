@@ -1,0 +1,979 @@
+Flattening unmatched subcell FA in circuit ADDER.spc (0)(8 instances)
+
+Subcircuit summary:
+Circuit 1: ADDER.spc                       |Circuit 2: ADDER.spice                     
+-------------------------------------------|-------------------------------------------
+nfet (112)                                 |nfet (112)                                 
+pfet (112)                                 |pfet (112)                                 
+Number of devices: 224                     |Number of devices: 224                     
+Number of nets: 131 **Mismatch**           |Number of nets: 132 **Mismatch**           
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: ADDER.spc                       |Circuit 2: ADDER.spice                     
+
+---------------------------------------------------------------------------------------
+Net: gnd                                   |Net: FA_7/B                                
+  nfet/(drain|source) = 8                  |  pfet/gate = 4                            
+  pfet/(drain|source) = 8                  |  nfet/gate = 4                            
+                                           |                                           
+Net: vdd                                   |Net: FA_6/B                                
+  nfet/gate = 32                           |  pfet/gate = 4                            
+  pfet/gate = 32                           |  nfet/gate = 4                            
+                                           |                                           
+Net: FA7/GND                               |Net: FA_5/B                                
+  nfet/(drain|source) = 9                  |  pfet/gate = 4                            
+  nfet/bulk = 14                           |  nfet/gate = 4                            
+                                           |                                           
+Net: FA6/GND                               |Net: FA_2/B                                
+  nfet/(drain|source) = 9                  |  pfet/gate = 4                            
+  nfet/bulk = 14                           |  nfet/gate = 4                            
+                                           |                                           
+Net: FA5/GND                               |Net: FA_1/B                                
+  nfet/(drain|source) = 9                  |  pfet/gate = 4                            
+  nfet/bulk = 14                           |  nfet/gate = 4                            
+                                           |                                           
+Net: FA2/GND                               |Net: FA_0/B                                
+  nfet/(drain|source) = 9                  |  pfet/gate = 4                            
+  nfet/bulk = 14                           |  nfet/gate = 4                            
+                                           |                                           
+Net: FA1/GND                               |Net: FA_7/SUM                              
+  nfet/(drain|source) = 9                  |  pfet/(drain|source) = 1                  
+  nfet/bulk = 14                           |  nfet/(drain|source) = 1                  
+                                           |                                           
+Net: FA0/GND                               |Net: FA_6/SUM                              
+  nfet/(drain|source) = 9                  |  pfet/(drain|source) = 1                  
+  nfet/bulk = 14                           |  nfet/(drain|source) = 1                  
+                                           |                                           
+Net: FA7/VDD                               |Net: FA_5/SUM                              
+  pfet/(drain|source) = 7                  |  pfet/(drain|source) = 1                  
+  pfet/bulk = 14                           |  nfet/(drain|source) = 1                  
+                                           |                                           
+Net: FA6/VDD                               |Net: FA_2/SUM                              
+  pfet/(drain|source) = 7                  |  pfet/(drain|source) = 1                  
+  pfet/bulk = 14                           |  nfet/(drain|source) = 1                  
+                                           |                                           
+Net: FA5/VDD                               |Net: FA_1/SUM                              
+  pfet/(drain|source) = 7                  |  pfet/(drain|source) = 1                  
+  pfet/bulk = 14                           |  nfet/(drain|source) = 1                  
+                                           |                                           
+Net: FA2/VDD                               |Net: FA_0/SUM                              
+  pfet/(drain|source) = 7                  |  pfet/(drain|source) = 1                  
+  pfet/bulk = 14                           |  nfet/(drain|source) = 1                  
+                                           |                                           
+Net: FA1/VDD                               |Net: FA_0/vdd                              
+  pfet/(drain|source) = 7                  |  pfet/(drain|source) = 56                 
+  pfet/bulk = 14                           |  pfet/bulk = 112                          
+                                           |                                           
+Net: FA0/VDD                               |Net: FA_0/gnd                              
+  pfet/(drain|source) = 7                  |  nfet/(drain|source) = 72                 
+  pfet/bulk = 14                           |                                           
+                                           |                                           
+(no matching net)                          |Net: Gnd                                   
+                                           |  nfet/bulk = 112                          
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: FA_3/SUM                              
+                                           |  pfet/(drain|source) = 1                  
+                                           |  nfet/(drain|source) = 1                  
+                                           |                                           
+(no matching net)                          |Net: FA_4/SUM                              
+                                           |  pfet/(drain|source) = 1                  
+                                           |  nfet/(drain|source) = 1                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: FA_3/B                                
+                                           |  pfet/gate = 4                            
+                                           |  nfet/gate = 4                            
+                                           |                                           
+(no matching net)                          |Net: FA_4/B                                
+                                           |  pfet/gate = 4                            
+                                           |  nfet/gate = 4                            
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: FA3/VDD                               |(no matching net)                          
+  pfet/(drain|source) = 7                  |                                           
+  pfet/bulk = 14                           |                                           
+                                           |                                           
+Net: FA4/VDD                               |(no matching net)                          
+  pfet/(drain|source) = 7                  |                                           
+  pfet/bulk = 14                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: FA3/GND                               |(no matching net)                          
+  nfet/(drain|source) = 9                  |                                           
+  nfet/bulk = 14                           |                                           
+                                           |                                           
+Net: FA4/GND                               |(no matching net)                          
+  nfet/(drain|source) = 9                  |                                           
+  nfet/bulk = 14                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: FA4/int11                             |Net: FA_4/a_137_2#                         
+  pfet/(drain|source) = 2                  |  pfet/(drain|source) = 2                  
+                                           |                                           
+Net: FA3/int11                             |Net: FA_3/a_137_2#                         
+  pfet/(drain|source) = 2                  |  pfet/(drain|source) = 2                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: FA_3/a_129_2#                         
+                                           |  pfet/(drain|source) = 2                  
+                                           |                                           
+(no matching net)                          |Net: FA_4/a_129_2#                         
+                                           |  pfet/(drain|source) = 2                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: FA3/int10                             |(no matching net)                          
+  pfet/(drain|source) = 2                  |                                           
+                                           |                                           
+Net: FA4/int10                             |(no matching net)                          
+  pfet/(drain|source) = 2                  |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: FA_3/a_105_n43#                       
+                                           |  nfet/(drain|source) = 2                  
+                                           |                                           
+(no matching net)                          |Net: FA_4/a_105_n43#                       
+                                           |  nfet/(drain|source) = 2                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: FA3/int13                             |(no matching net)                          
+  nfet/(drain|source) = 2                  |                                           
+                                           |                                           
+Net: FA4/int13                             |(no matching net)                          
+  nfet/(drain|source) = 2                  |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: FA_3/a_43_2#                          
+                                           |  pfet/(drain|source) = 2                  
+                                           |                                           
+(no matching net)                          |Net: FA_4/a_43_2#                          
+                                           |  pfet/(drain|source) = 2                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: FA3/int34                             |(no matching net)                          
+  pfet/(drain|source) = 2                  |                                           
+                                           |                                           
+Net: FA4/int34                             |(no matching net)                          
+  pfet/(drain|source) = 2                  |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: FA_3/a_67_n43#                        
+                                           |  nfet/(drain|source) = 2                  
+                                           |                                           
+(no matching net)                          |Net: FA_4/a_67_n43#                        
+                                           |  nfet/(drain|source) = 2                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: FA3/int37                             |(no matching net)                          
+  nfet/(drain|source) = 2                  |                                           
+                                           |                                           
+Net: FA4/int37                             |(no matching net)                          
+  nfet/(drain|source) = 2                  |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: FA4/int14                             |Net: FA_4/a_113_n43#                       
+  nfet/(drain|source) = 2                  |  nfet/(drain|source) = 2                  
+                                           |                                           
+Net: FA3/int14                             |Net: FA_3/a_113_n43#                       
+  nfet/(drain|source) = 2                  |  nfet/(drain|source) = 2                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: FA4/int15                             |Net: FA_4/a_11_n26#                        
+  nfet/gate = 2                            |  pfet/gate = 2                            
+  pfet/gate = 2                            |  pfet/(drain|source) = 2                  
+  nfet/(drain|source) = 2                  |  nfet/gate = 2                            
+  pfet/(drain|source) = 2                  |  nfet/(drain|source) = 2                  
+                                           |                                           
+Net: FA3/int15                             |Net: FA_3/a_11_n26#                        
+  nfet/gate = 2                            |  pfet/gate = 2                            
+  pfet/gate = 2                            |  pfet/(drain|source) = 2                  
+  nfet/(drain|source) = 2                  |  nfet/gate = 2                            
+  pfet/(drain|source) = 2                  |  nfet/(drain|source) = 2                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: FA_3/A                                
+                                           |  pfet/gate = 4                            
+                                           |  nfet/gate = 4                            
+                                           |                                           
+(no matching net)                          |Net: FA_4/A                                
+                                           |  pfet/gate = 4                            
+                                           |  nfet/gate = 4                            
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: SUM3                                  |(no matching net)                          
+  nfet/gate = 4                            |                                           
+  pfet/gate = 4                            |                                           
+                                           |                                           
+Net: SUM4                                  |(no matching net)                          
+  nfet/gate = 4                            |                                           
+  pfet/gate = 4                            |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: int32                                 |Net: FA_5/CIN                              
+  nfet/(drain|source) = 1                  |  pfet/gate = 3                            
+  pfet/(drain|source) = 1                  |  nfet/gate = 3                            
+  nfet/gate = 3                            |  pfet/(drain|source) = 1                  
+  pfet/gate = 3                            |  nfet/(drain|source) = 1                  
+                                           |                                           
+Net: int31                                 |Net: FA_4/CIN                              
+  nfet/(drain|source) = 1                  |  pfet/gate = 3                            
+  pfet/(drain|source) = 1                  |  nfet/gate = 3                            
+  nfet/gate = 3                            |  pfet/(drain|source) = 1                  
+  pfet/gate = 3                            |  nfet/(drain|source) = 1                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: FA3/int9                              |Net: FA_3/a_105_2#                         
+  pfet/(drain|source) = 5                  |  pfet/(drain|source) = 5                  
+                                           |                                           
+Net: FA4/int9                              |Net: FA_4/a_105_2#                         
+  pfet/(drain|source) = 5                  |  pfet/(drain|source) = 5                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: FA3/int33                             |Net: FA_3/a_36_2#                          
+  pfet/(drain|source) = 4                  |  pfet/(drain|source) = 4                  
+                                           |                                           
+Net: FA4/int33                             |Net: FA_4/a_36_2#                          
+  pfet/(drain|source) = 4                  |  pfet/(drain|source) = 4                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: FA3/int16                             |Net: FA_3/a_129_n43#                       
+  nfet/(drain|source) = 4                  |  nfet/(drain|source) = 4                  
+                                           |                                           
+Net: FA4/int16                             |Net: FA_4/a_129_n43#                       
+  nfet/(drain|source) = 4                  |  nfet/(drain|source) = 4                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: FA3/int38                             |Net: FA_3/a_36_n43#                        
+  nfet/(drain|source) = 3                  |  nfet/(drain|source) = 3                  
+                                           |                                           
+Net: FA4/int38                             |Net: FA_4/a_36_n43#                        
+  nfet/(drain|source) = 3                  |  nfet/(drain|source) = 3                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: FA3/int12                             |Net: FA_3/a_98_n43#                        
+  nfet/gate = 1                            |  pfet/(drain|source) = 2                  
+  nfet/(drain|source) = 2                  |  pfet/gate = 1                            
+  pfet/gate = 1                            |  nfet/gate = 1                            
+  pfet/(drain|source) = 2                  |  nfet/(drain|source) = 2                  
+                                           |                                           
+Net: FA4/int12                             |Net: FA_4/a_98_n43#                        
+  nfet/gate = 1                            |  pfet/(drain|source) = 2                  
+  nfet/(drain|source) = 2                  |  pfet/gate = 1                            
+  pfet/gate = 1                            |  nfet/gate = 1                            
+  pfet/(drain|source) = 2                  |  nfet/(drain|source) = 2                  
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: ADDER.spc                       |Circuit 2: ADDER.spice                     
+
+---------------------------------------------------------------------------------------
+Instance: FA3/pfet19                       |Instance: pfet1123                         
+  (drain,source) = (6,2)                   |  (drain,source) = (6,2)                   
+  gate = 8                                 |  gate = 8                                 
+  bulk = 21                                |  bulk = 168                               
+                                           |                                           
+Instance: FA4/pfet19                       |Instance: pfet1095                         
+  (drain,source) = (6,2)                   |  (drain,source) = (6,2)                   
+  gate = 8                                 |  gate = 8                                 
+  bulk = 21                                |  bulk = 168                               
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: pfet1089                         
+                                           |  (drain,source) = (168,4)                 
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: pfet1117                         
+                                           |  (drain,source) = (168,4)                 
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/pfet4                        |(no matching instance)                     
+  (drain,source) = (21,4)                  |                                           
+  gate = 64                                |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/pfet4                        |(no matching instance)                     
+  (drain,source) = (21,4)                  |                                           
+  gate = 64                                |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: pfet1088                         
+                                           |  (drain,source) = (168,4)                 
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: pfet1116                         
+                                           |  (drain,source) = (168,4)                 
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/pfet3                        |(no matching instance)                     
+  (drain,source) = (21,4)                  |                                           
+  gate = 8                                 |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/pfet3                        |(no matching instance)                     
+  (drain,source) = (21,4)                  |                                           
+  gate = 8                                 |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: pfet1085                         
+                                           |  (drain,source) = (4,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: pfet1113                         
+                                           |  (drain,source) = (4,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/pfet5                        |(no matching instance)                     
+  (drain,source) = (4,2)                   |                                           
+  gate = 8                                 |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/pfet5                        |(no matching instance)                     
+  (drain,source) = (4,2)                   |                                           
+  gate = 8                                 |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA3/pfet6                        |Instance: pfet1115                         
+  (drain,source) = (8,4)                   |  (drain,source) = (8,4)                   
+  gate = 8                                 |  gate = 8                                 
+  bulk = 21                                |  bulk = 168                               
+                                           |                                           
+Instance: FA4/pfet6                        |Instance: pfet1087                         
+  (drain,source) = (8,4)                   |  (drain,source) = (8,4)                   
+  gate = 8                                 |  gate = 8                                 
+  bulk = 21                                |  bulk = 168                               
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: pfet1091                         
+                                           |  (drain,source) = (168,5)                 
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: pfet1119                         
+                                           |  (drain,source) = (168,5)                 
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/pfet14                       |(no matching instance)                     
+  (drain,source) = (21,5)                  |                                           
+  gate = 64                                |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/pfet14                       |(no matching instance)                     
+  (drain,source) = (21,5)                  |                                           
+  gate = 64                                |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: pfet1090                         
+                                           |  (drain,source) = (168,5)                 
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: pfet1118                         
+                                           |  (drain,source) = (168,5)                 
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/pfet15                       |(no matching instance)                     
+  (drain,source) = (21,5)                  |                                           
+  gate = 8                                 |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/pfet15                       |(no matching instance)                     
+  (drain,source) = (21,5)                  |                                           
+  gate = 8                                 |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA3/pfet13                       |Instance: pfet1120                         
+  (drain,source) = (21,5)                  |  (drain,source) = (168,5)                 
+  gate = 8                                 |  gate = 8                                 
+  bulk = 21                                |  bulk = 168                               
+                                           |                                           
+Instance: FA4/pfet13                       |Instance: pfet1092                         
+  (drain,source) = (21,5)                  |  (drain,source) = (168,5)                 
+  gate = 8                                 |  gate = 8                                 
+  bulk = 21                                |  bulk = 168                               
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: pfet1093                         
+                                           |  (drain,source) = (5,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: pfet1121                         
+                                           |  (drain,source) = (5,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/pfet17                       |(no matching instance)                     
+  (drain,source) = (5,2)                   |                                           
+  gate = 8                                 |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/pfet17                       |(no matching instance)                     
+  (drain,source) = (5,2)                   |                                           
+  gate = 8                                 |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: pfet1094                         
+                                           |  (drain,source) = (2,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: pfet1122                         
+                                           |  (drain,source) = (2,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/pfet18                       |(no matching instance)                     
+  (drain,source) = (2,2)                   |                                           
+  gate = 64                                |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/pfet18                       |(no matching instance)                     
+  (drain,source) = (2,2)                   |                                           
+  gate = 64                                |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/pfet7                        |(no matching instance)                     
+  (drain,source) = (8,2)                   |                                           
+  gate = 64                                |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/pfet7                        |(no matching instance)                     
+  (drain,source) = (8,2)                   |                                           
+  gate = 64                                |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: pfet1086                         
+                                           |  (drain,source) = (8,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: pfet1114                         
+                                           |  (drain,source) = (8,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/pfet1                        |(no matching instance)                     
+  (drain,source) = (21,8)                  |                                           
+  gate = 8                                 |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/pfet1                        |(no matching instance)                     
+  (drain,source) = (21,8)                  |                                           
+  gate = 8                                 |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: pfet1084                         
+                                           |  (drain,source) = (168,8)                 
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: pfet1112                         
+                                           |  (drain,source) = (168,8)                 
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/pfet16                       |(no matching instance)                     
+  (drain,source) = (6,5)                   |                                           
+  gate = 8                                 |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/pfet16                       |(no matching instance)                     
+  (drain,source) = (6,5)                   |                                           
+  gate = 8                                 |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: pfet1096                         
+                                           |  (drain,source) = (6,5)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: pfet1124                         
+                                           |  (drain,source) = (6,5)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 168                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: pfet1097                         
+                                           |  (drain,source) = (168,2)                 
+                                           |  gate = 6                                 
+                                           |  bulk = 168                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: pfet1125                         
+                                           |  (drain,source) = (168,2)                 
+                                           |  gate = 6                                 
+                                           |  bulk = 168                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/pfet27                       |(no matching instance)                     
+  (drain,source) = (21,16)                 |                                           
+  gate = 6                                 |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/pfet27                       |(no matching instance)                     
+  (drain,source) = (21,16)                 |                                           
+  gate = 6                                 |                                           
+  bulk = 21                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA3/nfet8                        |Instance: nfet1130                         
+  (drain,source) = (8,3)                   |  (drain,source) = (8,3)                   
+  gate = 8                                 |  gate = 8                                 
+  bulk = 23                                |  bulk = 112                               
+                                           |                                           
+Instance: FA4/nfet8                        |Instance: nfet1102                         
+  (drain,source) = (8,3)                   |  (drain,source) = (8,3)                   
+  gate = 8                                 |  gate = 8                                 
+  bulk = 23                                |  bulk = 112                               
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: nfet1101                         
+                                           |  (drain,source) = (72,3)                  
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: nfet1129                         
+                                           |  (drain,source) = (72,3)                  
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/nfet11                       |(no matching instance)                     
+  (drain,source) = (23,3)                  |                                           
+  gate = 64                                |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/nfet11                       |(no matching instance)                     
+  (drain,source) = (23,3)                  |                                           
+  gate = 64                                |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: nfet1100                         
+                                           |  (drain,source) = (72,3)                  
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: nfet1128                         
+                                           |  (drain,source) = (72,3)                  
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/nfet10                       |(no matching instance)                     
+  (drain,source) = (23,3)                  |                                           
+  gate = 8                                 |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/nfet10                       |(no matching instance)                     
+  (drain,source) = (23,3)                  |                                           
+  gate = 8                                 |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: nfet1105                         
+                                           |  (drain,source) = (6,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: nfet1133                         
+                                           |  (drain,source) = (6,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/nfet24                       |(no matching instance)                     
+  (drain,source) = (6,2)                   |                                           
+  gate = 8                                 |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/nfet24                       |(no matching instance)                     
+  (drain,source) = (6,2)                   |                                           
+  gate = 8                                 |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: nfet1106                         
+                                           |  (drain,source) = (2,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: nfet1134                         
+                                           |  (drain,source) = (2,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/nfet25                       |(no matching instance)                     
+  (drain,source) = (2,2)                   |                                           
+  gate = 64                                |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/nfet25                       |(no matching instance)                     
+  (drain,source) = (2,2)                   |                                           
+  gate = 64                                |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA3/nfet26                       |Instance: nfet1135                         
+  (drain,source) = (23,2)                  |  (drain,source) = (72,2)                  
+  gate = 8                                 |  gate = 8                                 
+  bulk = 23                                |  bulk = 112                               
+                                           |                                           
+Instance: FA4/nfet26                       |Instance: nfet1107                         
+  (drain,source) = (23,2)                  |  (drain,source) = (72,2)                  
+  gate = 8                                 |  gate = 8                                 
+  bulk = 23                                |  bulk = 112                               
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/nfet9                        |(no matching instance)                     
+  (drain,source) = (8,2)                   |                                           
+  gate = 8                                 |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/nfet9                        |(no matching instance)                     
+  (drain,source) = (8,2)                   |                                           
+  gate = 8                                 |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: nfet1103                         
+                                           |  (drain,source) = (8,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: nfet1131                         
+                                           |  (drain,source) = (8,2)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/nfet2                        |(no matching instance)                     
+  (drain,source) = (23,8)                  |                                           
+  gate = 8                                 |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/nfet2                        |(no matching instance)                     
+  (drain,source) = (23,8)                  |                                           
+  gate = 8                                 |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: nfet1098                         
+                                           |  (drain,source) = (72,8)                  
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: nfet1126                         
+                                           |  (drain,source) = (72,8)                  
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: nfet1104                         
+                                           |  (drain,source) = (72,2)                  
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: nfet1132                         
+                                           |  (drain,source) = (72,2)                  
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/nfet12                       |(no matching instance)                     
+  (drain,source) = (23,2)                  |                                           
+  gate = 64                                |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/nfet12                       |(no matching instance)                     
+  (drain,source) = (23,2)                  |                                           
+  gate = 64                                |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: nfet1099                         
+                                           |  (drain,source) = (72,2)                  
+                                           |  gate = 6                                 
+                                           |  bulk = 112                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: nfet1127                         
+                                           |  (drain,source) = (72,2)                  
+                                           |  gate = 6                                 
+                                           |  bulk = 112                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/nfet28                       |(no matching instance)                     
+  (drain,source) = (23,16)                 |                                           
+  gate = 6                                 |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/nfet28                       |(no matching instance)                     
+  (drain,source) = (23,16)                 |                                           
+  gate = 6                                 |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA3/nfet23                       |Instance: nfet1138                         
+  (drain,source) = (23,4)                  |  (drain,source) = (72,4)                  
+  gate = 8                                 |  gate = 8                                 
+  bulk = 23                                |  bulk = 112                               
+                                           |                                           
+Instance: FA4/nfet23                       |Instance: nfet1110                         
+  (drain,source) = (23,4)                  |  (drain,source) = (72,4)                  
+  gate = 8                                 |  gate = 8                                 
+  bulk = 23                                |  bulk = 112                               
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: nfet1109                         
+                                           |  (drain,source) = (72,4)                  
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: nfet1137                         
+                                           |  (drain,source) = (72,4)                  
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/nfet22                       |(no matching instance)                     
+  (drain,source) = (23,4)                  |                                           
+  gate = 64                                |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/nfet22                       |(no matching instance)                     
+  (drain,source) = (23,4)                  |                                           
+  gate = 64                                |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: nfet1108                         
+                                           |  (drain,source) = (72,4)                  
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: nfet1136                         
+                                           |  (drain,source) = (72,4)                  
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/nfet21                       |(no matching instance)                     
+  (drain,source) = (23,4)                  |                                           
+  gate = 8                                 |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/nfet21                       |(no matching instance)                     
+  (drain,source) = (23,4)                  |                                           
+  gate = 8                                 |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: FA4/nfet20                       |(no matching instance)                     
+  (drain,source) = (6,4)                   |                                           
+  gate = 8                                 |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+                                           |                                           
+Instance: FA3/nfet20                       |(no matching instance)                     
+  (drain,source) = (6,4)                   |                                           
+  gate = 8                                 |                                           
+  bulk = 23                                |                                           
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: nfet1111                         
+                                           |  (drain,source) = (6,4)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: nfet1139                         
+                                           |  (drain,source) = (6,4)                   
+                                           |  gate = 8                                 
+                                           |  bulk = 112                               
+                                           |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Netlists do not match.

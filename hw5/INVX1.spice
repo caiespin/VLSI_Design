@@ -1,0 +1,12 @@
+* SPICE3 file created from INVX1.ext - technology: scmos
+
+.subckt INVX1 A Y vdd gnd
+M1000 Y A vdd vdd pfet w=6u l=0.6u
++  ad=9p pd=15u as=9p ps=15u
+M1001 Y A gnd Gnd nfet w=3u l=0.6u
++  ad=4.5p pd=9u as=4.5p ps=9u
+C0 vdd Gnd 7.00fF
+.ends
+
+X101 A Z VDD GND INVX1
+.end

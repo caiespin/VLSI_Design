@@ -1,0 +1,167 @@
+magic
+tech scmos
+timestamp 1551197227
+<< m2contact >>
+rect 0 42 4 46
+rect 633 42 637 46
+<< metal2 >>
+rect 4 42 633 46
+use INV  INV_0
+timestamp 1551173462
+transform 1 0 -168 0 1 50
+box 168 -50 196 27
+use INV  INV_1
+timestamp 1551173462
+transform 1 0 -152 0 1 50
+box 168 -50 196 27
+use INV  INV_2
+timestamp 1551173462
+transform 1 0 -136 0 1 50
+box 168 -50 196 27
+use INV  INV_3
+timestamp 1551173462
+transform 1 0 -120 0 1 50
+box 168 -50 196 27
+use INV  INV_4
+timestamp 1551173462
+transform 1 0 -104 0 1 50
+box 168 -50 196 27
+use INV  INV_5
+timestamp 1551173462
+transform 1 0 -88 0 1 50
+box 168 -50 196 27
+use INV  INV_6
+timestamp 1551173462
+transform 1 0 -71 0 1 50
+box 168 -50 196 27
+use INV  INV_7
+timestamp 1551173462
+transform 1 0 -55 0 1 50
+box 168 -50 196 27
+use INV  INV_8
+timestamp 1551173462
+transform 1 0 -39 0 1 50
+box 168 -50 196 27
+use INV  INV_9
+timestamp 1551173462
+transform 1 0 -23 0 1 50
+box 168 -50 196 27
+use INV  INV_10
+timestamp 1551173462
+transform 1 0 -7 0 1 50
+box 168 -50 196 27
+use INV  INV_11
+timestamp 1551173462
+transform 1 0 9 0 1 50
+box 168 -50 196 27
+use INV  INV_12
+timestamp 1551173462
+transform 1 0 25 0 1 50
+box 168 -50 196 27
+use INV  INV_13
+timestamp 1551173462
+transform 1 0 41 0 1 50
+box 168 -50 196 27
+use INV  INV_14
+timestamp 1551173462
+transform 1 0 57 0 1 50
+box 168 -50 196 27
+use INV  INV_15
+timestamp 1551173462
+transform 1 0 73 0 1 50
+box 168 -50 196 27
+use INV  INV_16
+timestamp 1551173462
+transform 1 0 89 0 1 50
+box 168 -50 196 27
+use INV  INV_17
+timestamp 1551173462
+transform 1 0 105 0 1 50
+box 168 -50 196 27
+use INV  INV_18
+timestamp 1551173462
+transform 1 0 121 0 1 50
+box 168 -50 196 27
+use INV  INV_19
+timestamp 1551173462
+transform 1 0 137 0 1 50
+box 168 -50 196 27
+use INV  INV_20
+timestamp 1551173462
+transform 1 0 153 0 1 50
+box 168 -50 196 27
+use INV  INV_21
+timestamp 1551173462
+transform 1 0 169 0 1 50
+box 168 -50 196 27
+use INV  INV_22
+timestamp 1551173462
+transform 1 0 185 0 1 50
+box 168 -50 196 27
+use INV  INV_23
+timestamp 1551173462
+transform 1 0 201 0 1 50
+box 168 -50 196 27
+use INV  INV_24
+timestamp 1551173462
+transform 1 0 217 0 1 50
+box 168 -50 196 27
+use INV  INV_25
+timestamp 1551173462
+transform 1 0 233 0 1 50
+box 168 -50 196 27
+use INV  INV_26
+timestamp 1551173462
+transform 1 0 249 0 1 50
+box 168 -50 196 27
+use INV  INV_27
+timestamp 1551173462
+transform 1 0 265 0 1 50
+box 168 -50 196 27
+use INV  INV_28
+timestamp 1551173462
+transform 1 0 281 0 1 50
+box 168 -50 196 27
+use INV  INV_29
+timestamp 1551173462
+transform 1 0 297 0 1 50
+box 168 -50 196 27
+use INV  INV_30
+timestamp 1551173462
+transform 1 0 313 0 1 50
+box 168 -50 196 27
+use INV  INV_31
+timestamp 1551173462
+transform 1 0 329 0 1 50
+box 168 -50 196 27
+use INV  INV_32
+timestamp 1551173462
+transform 1 0 345 0 1 50
+box 168 -50 196 27
+use INV  INV_33
+timestamp 1551173462
+transform 1 0 361 0 1 50
+box 168 -50 196 27
+use INV  INV_34
+timestamp 1551173462
+transform 1 0 377 0 1 50
+box 168 -50 196 27
+use INV  INV_35
+timestamp 1551173462
+transform 1 0 393 0 1 50
+box 168 -50 196 27
+use INV  INV_36
+timestamp 1551173462
+transform 1 0 409 0 1 50
+box 168 -50 196 27
+use INV  INV_37
+timestamp 1551173462
+transform 1 0 425 0 1 50
+box 168 -50 196 27
+use INV  INV_38
+timestamp 1551173462
+transform 1 0 441 0 1 50
+box 168 -50 196 27
+<< labels >>
+rlabel metal2 625 44 625 44 1 OSC
+<< end >>

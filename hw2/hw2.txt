@@ -1,0 +1,6 @@
+CMPE222 Homework 2
+Carlos Isaac Espinosa Ramirez
+
+Inverter: Dimensions 24x74 lambda equal to 7.7um width by 22.2um height, total area 159.84um^2
+
+NOR gate: Dimensions 42x74 lambda equal to 12.6um width by 22.2um height, total area 297.72um^2
